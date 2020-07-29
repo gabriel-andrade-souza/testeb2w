@@ -1,0 +1,76 @@
+.navbar {
+  background-color: blue;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.box {
+  border:1px solid #444;
+  width: 450px;
+  height: 34px;
+  padding: 4px;
+  background-color: white;
+  border-radius: 8px;
+  outline:0;
+  border:0;
+
+}
+
+#buscar{
+  border: none;
+  width: 400px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: -6px;
+  border-radius: 10px;
+  text-align: center;
+  position: block;
+  box-sizing: border-box;
+  display:inline-block;
+  outline:0;
+  border:0;
+  }
+
+#busca {
+   background: url(/buscar.png) no-repeat;
+   background-size: 16px;
+   border:none;
+   float:right;
+   padding: 9px 10px;
+   margin-top: 4px;
+   outline-style: none;
+ 
+}
+
+#car-ico {
+ 
+   background: url(/car-ico.png) no-repeat;
+   background-size: 25px;
+   border:none;
+   margin-top: -14px;
+   margin-left: -14px;
+   outline-style: none;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  
+  
+} 
+
+.box2{
+  border:1px solid #444;
+  width: 10px;
+  padding: 20px;
+  background-color: none;
+  border-radius: 8px;
+  margin-right: -20px;
+  margin-left: 60px;
+  outline:0;
+  border:0;
+
+}
